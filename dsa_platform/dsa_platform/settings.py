@@ -54,3 +54,5 @@ TEMPLATES = [
         },
     },
 ]
+
+STATIC_URL = '/static/'
