@@ -1,9 +1,16 @@
+
+
+
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DEBUG = True
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-your-very-long-random-secret-key-here'   # ← Change this
 
-ALLOWED_HOSTS = []
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
+ALLOWED_HOSTS = ['*']   # For development on Render. Later you can restrict it.
 
 INSTALLED_APPS = [
     'django.contrib.admin',
