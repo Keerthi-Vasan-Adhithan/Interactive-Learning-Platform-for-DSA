@@ -39,6 +39,7 @@ DATABASES = {
     }
 }
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -54,5 +55,8 @@ TEMPLATES = [
         },
     },
 ]
+
+ROOT_URLCONF = 'dsa_platform.urls'   
+
 
 STATIC_URL = '/static/'
